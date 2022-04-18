@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int maxAvgSubArray(int *a, int n, int k)
+float maxAvgSubArray(int *a, int n, int k)
 {
     int maxSum =0;
     int currSum = 0;
